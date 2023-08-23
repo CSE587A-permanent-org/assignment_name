@@ -9,17 +9,13 @@ You'll need [poetry](https://python-poetry.org/) on your local computer.
 To use this repository as a template, do the following:
 
 1. Create a new repository through github. After clicking
-'new repository', there will be a `template` option near the top
+'new repository', there will be a `template` option at the top
 which provides a dropdown. Choose this repository as the template.
 
-1. `git clone` the new repository to your local. Using your favorite method of
-finding and replacing all strings in a directory (I do this in vscode)
-replace all instances of `assignment_name` with the name of the new
-assignment. No spaces or special characters other than hyphens or
-underscores. Make sure whatever method you use includes hidden directories
-in the search and replace.
-    - Change the name of the `assignment_name` directory to the same new name
-    that you set above
+1. `git clone` the new repository to your local.
+    - Change the name of the `assignment_name` directory to the assignment name.
+    This does not need to be the same -- for instance, if you named the repo `dice_posterior_solution`,
+    you would name the `assignment_name` subdirectory `dice_posterior`
     - Change the name of the hidden
     `.vscode/assignment_name.code-workspace` to
     `.vscode/<new_name>.code-workspace`
