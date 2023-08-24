@@ -6,7 +6,7 @@ from assignment_name.assignment import square
 configure_logging(logging.WARN)
 
 
-class TestDiceEM(unittest.TestCase):
+class Testassignment_name(unittest.TestCase):
     
     def test_square(self):
         

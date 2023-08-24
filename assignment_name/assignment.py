@@ -14,7 +14,7 @@ def square(x: [int, float]) -> [int, float]:
     :rtype: [int, float]
     """
     # check input type
-    if not isinstance(x, [int, float]):
+    if not isinstance(x, (int, float)):
         raise ValueError('`x` must be numeric')
     
     # optional logging
