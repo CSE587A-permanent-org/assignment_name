@@ -19,7 +19,11 @@
         "79"
     ],
     "python.testing.unittestArgs": [
-        "new_assignment"
+        "-v",
+        "-s",
+        "./assignment_name",
+        "-p",
+        "test*.py"
     ],
     "python.testing.unittestEnabled": true,
     "python.testing.pytestEnabled": false,
