@@ -1,8 +1,7 @@
 import logging
-import numpy as np
 import unittest
-from ..utils.configure_logging import configure_logging
-from .assignment import square
+from utils.configure_logging import configure_logging
+from assignment_name.assignment import square
 
 configure_logging(logging.WARN)
 
