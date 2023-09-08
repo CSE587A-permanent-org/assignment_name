@@ -39,6 +39,8 @@ names, etc, then it is easiest to deal with it now.
     you plan to use any of these features, test them now, also.
 
 1. Once you're convined that the package is set up correctly, start writing.
+1. Delete all of the "setting up new assignment" stuff in the README. There is
+   README text below this section that you can keep with a first level header
 
 ## Assumptions regarding package structure and filenames
 
@@ -55,3 +57,13 @@ tests, however, not the student's. This ensures that the students cannot
 manipulate the tests. It also means that the students should *not* modify
 the tests as they complete the assignment as their modified test file
 will not be used (so, no imports, etc).
+
+# assignment_name
+
+You will find the assignment instructions in
+[assignment_name/assignment.ipynb](assignment_name/assignment.ipynb). As with
+the other labs, the only code which will be graded is in
+[assignment_name/assignment.py](assignment_name/assignment.py). You need to write code
+in that file such that the tests in
+[assignment_name/test_assignment.py](assignment_name/test_assignment.py) pass.
+
