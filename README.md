@@ -19,6 +19,8 @@ which provides a dropdown. Choose this repository as the template.
     - Change the name of the hidden
     `.vscode/assignment_name.code-workspace` to
     `.vscode/<new_name>.code-workspace`
+    - Using your favorite text editor, search for all instances of `assignment_name` and replace
+      with your actual assignment name. I use the vscode find all/replace all function for this.
 
 1. Run `poetry install`
     - At this point, you can either set the python interpreter in your current
