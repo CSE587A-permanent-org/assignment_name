@@ -42,7 +42,7 @@ names, etc, then it is easiest to deal with it now.
 ## Assumptions regarding package structure and filenames
 
 Currently, the assumption is that there will be a directory with the
-name of the assignment, eg `new_assignment`, with at least the following
+name of the assignment, eg `assignment_name`, with at least the following
 two files: `assignment.py` and `test_assignment.py`. Not all source code
 must be in `assignment.py`, for instance you can put source code in other
 files. However, it is important, if you are using the autograder without

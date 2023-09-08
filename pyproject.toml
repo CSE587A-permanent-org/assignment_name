@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "new_assignment"
+name = "assignment_name"
 version = "0.1.0"
 description = "CSE587 Dice Posterior Assignment"
 authors = ["chase mateusiak <chase.mateusiak@gmail.com>"]

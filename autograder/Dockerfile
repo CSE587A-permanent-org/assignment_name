@@ -12,7 +12,7 @@ ADD autograder/source /autograder/source
 # This is where the results of the tests are stored
 RUN mkdir /autograder/results
 
-ADD new_assignment/test_assignment.py /autograder/source/
+ADD assignment_name/test_assignment.py /autograder/source/
 
 RUN cp /autograder/source/run_autograder /autograder/run_autograder
 

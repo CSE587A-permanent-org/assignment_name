@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-rm /autograder/submission/new_assignment/test_assignment.py
+rm /autograder/submission/assignment_name/test_assignment.py
 
-cp /autograder/source/test_assignment.py /autograder/submission/new_assignment/
+cp /autograder/source/test_assignment.py /autograder/submission/assignment_name/
 
 cd /autograder/submission/
 
