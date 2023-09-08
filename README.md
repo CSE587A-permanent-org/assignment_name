@@ -20,7 +20,8 @@ which provides a dropdown. Choose this repository as the template.
     `.vscode/assignment_name.code-workspace` to
     `.vscode/<new_name>.code-workspace`
     - Using your favorite text editor, search for all instances of `assignment_name` and replace
-      with your actual assignment name. I use the vscode find all/replace all function for this.
+      with your actual assignment name. You can use vscode find all/replace all. I use this:
+      `grep -rl 'assignment_name' . | xargs sed -i 's/assignment_name/<YOUR NEW NAME HERE>/g'`
 
 1. Run `poetry install`
     - At this point, you can either set the python interpreter in your current
