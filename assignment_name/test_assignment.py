@@ -1,6 +1,6 @@
 import logging
 import unittest
-from utils.configure_logging import configure_logging
+from cse587Autils.configure_logging import configure_logging
 from assignment_name.assignment import square
 
 configure_logging(logging.WARN)

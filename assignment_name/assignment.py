@@ -1,5 +1,5 @@
 import logging
-from utils.configure_logging import configure_logging
+from cse587Autils.configure_logging import configure_logging
 
 logger = logging.getLogger(__name__)
 

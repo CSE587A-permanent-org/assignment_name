@@ -5,11 +5,11 @@ description = "CSE587 Dice Posterior Assignment"
 authors = ["chase mateusiak <chase.mateusiak@gmail.com>"]
 license = "GPL-3.0-or-later"
 readme = "README.md"
-packages = [{include = "assignment_name"},
-            {include = "utils"}]
+packages = [{include = "assignment_name"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+cse587autils = "^1.2.0"
 
 [tool.poetry.group.dev.dependencies]
 sphinx = "^7.1.1"
